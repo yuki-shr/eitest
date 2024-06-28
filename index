@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>webAR</title>
+  </head>
+  <body>
+  <script type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js">
+    
+  </script>
+    
+    <model-viewer            
+    ar
+    alt="モデル"
+    src="tokyo.glb"              
+    ios-src="hou.glb" 
+                  
+                  style="width:800px;height:800px; "
+                  background-color="#70BCD1"
+                  shadow-intensity="0"
+                  camera-controls
+                  interaction-prompt="auto"
+                  ar magic-leap>
+
+      
+    </model-viewer>
+
+  </body>
+</html>
